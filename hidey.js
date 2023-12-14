@@ -2,7 +2,7 @@ if (!window.top.location.href.startsWith("https://skybase-alpha.github.io/")) {
   document.querySelector("title").innerHTML = "Google";
   function hidey() {
     var theURL = prompt(
-      "Please enter a URL to show in your history instead of Pellarsites\r\nMake sure to include https:// or http://\r\nLeave blank for Google Classroom"
+      "Please enter a URL to show in your history instead of Carbon\r\nMake sure to include https:// or http://\r\nLeave blank for Google Classroom"
     );
     var tabBar = prompt(
       "Please select a tab disguise by typing the corresponding letter\r\nLeave blank for Google Classroom\r\nc - Google Classroom\r\ng - Google\r\nb - Blank\r\nt - Custom"
